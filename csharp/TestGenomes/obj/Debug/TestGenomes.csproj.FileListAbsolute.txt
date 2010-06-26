@@ -1,7 +1,0 @@
-C:\Users\makism\Documents\Visual Studio 2008\Projects\Spiral\TestGenomes\bin\Debug\TestGenomes.exe
-C:\Users\makism\Documents\Visual Studio 2008\Projects\Spiral\TestGenomes\bin\Debug\TestGenomes.pdb
-C:\Users\makism\Documents\Visual Studio 2008\Projects\Spiral\TestGenomes\bin\Debug\Spiral.dll
-C:\Users\makism\Documents\Visual Studio 2008\Projects\Spiral\TestGenomes\bin\Debug\Spiral.pdb
-C:\Users\makism\Documents\Visual Studio 2008\Projects\Spiral\TestGenomes\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\makism\Documents\Visual Studio 2008\Projects\Spiral\TestGenomes\obj\Debug\TestGenomes.exe
-C:\Users\makism\Documents\Visual Studio 2008\Projects\Spiral\TestGenomes\obj\Debug\TestGenomes.pdb

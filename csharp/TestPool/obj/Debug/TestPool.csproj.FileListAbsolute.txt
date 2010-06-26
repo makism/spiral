@@ -1,0 +1,7 @@
+C:\Users\makism\Documents\Visual Studio 2008\Projects\Spiral\TestPool\bin\Debug\TestPool.exe
+C:\Users\makism\Documents\Visual Studio 2008\Projects\Spiral\TestPool\bin\Debug\TestPool.pdb
+C:\Users\makism\Documents\Visual Studio 2008\Projects\Spiral\TestPool\bin\Debug\Spiral.dll
+C:\Users\makism\Documents\Visual Studio 2008\Projects\Spiral\TestPool\bin\Debug\Spiral.pdb
+C:\Users\makism\Documents\Visual Studio 2008\Projects\Spiral\TestPool\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\makism\Documents\Visual Studio 2008\Projects\Spiral\TestPool\obj\Debug\TestPool.exe
+C:\Users\makism\Documents\Visual Studio 2008\Projects\Spiral\TestPool\obj\Debug\TestPool.pdb

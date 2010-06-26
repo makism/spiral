@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4FCB3511-83A2-4E4A-BE64-2565E67D7AF2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>spiral.ga</RootNamespace>
+    <AssemblyName>Spiral</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ga\Crossover.cs" />
+    <Compile Include="ga\Demographics.cs" />
+    <Compile Include="ga\Mutation.cs" />
+    <Compile Include="ga\Pool.cs" />
+    <Compile Include="ga\Population.cs" />
+    <Compile Include="ga\Selection.cs" />
+    <Compile Include="ga\Topology\FullMesh.cs" />
+    <Compile Include="ga\Genome\BinaryGenome.cs" />
+    <Compile Include="ga\ChainIslands.cs" />
+    <Compile Include="ga\Genome\Genome.cs" />
+    <Compile Include="ga\Island.cs" />
+    <Compile Include="ga\Topology\Grid.cs" />
+    <Compile Include="ga\Topology\Grid3d.cs" />
+    <Compile Include="ga\Topology\Line.cs" />
+    <Compile Include="ga\Genome\NaturalNumberGenome.cs" />
+    <Compile Include="nn\layer\BiasLayer.cs" />
+    <Compile Include="nn\layer\Grid.cs" />
+    <Compile Include="nn\layer\Layer.cs" />
+    <Compile Include="nn\layer\NeuronLayer.cs" />
+    <Compile Include="nn\network\map\Map.cs" />
+    <Compile Include="nn\network\map\Som.cs" />
+    <Compile Include="nn\network\NeuralNet.cs" />
+    <Compile Include="nn\neuron\Neuron.cs" />
+    <Compile Include="nn\synapse\BidiSynapse.cs" />
+    <Compile Include="nn\synapse\Synapse.cs" />
+    <Compile Include="nn\synapse\TransferSynapse.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ga\Genome\RealNumberGenome.cs" />
+    <Compile Include="ga\Topology\RandomMesh.cs" />
+    <Compile Include="ga\Topology\Ring.cs" />
+    <Compile Include="ga\Topology\Topology.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
